@@ -1,0 +1,16 @@
+{% include 'header.html' %}
+<title>user Details</title>
+</head>
+<body>
+	<div class="conatiner"
+	{% include 'menus.html'%}
+	<br>
+	<h3>user Details</h3>
+	<br>
+	<h4>{{user.name}}</h4>
+	<p><strong>Email:</strong>{{user.email}}.</p>
+	<p><strong>Role:</strong>{{user.Role}}.</p>
+	<p><strong>country:</strong>{{user.country}}.</p>
+	</div>
+</body>
+</html>
